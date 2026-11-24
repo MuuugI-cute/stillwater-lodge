@@ -1,9 +1,7 @@
 # 湖静旅店 · Stillwater Lodge
 
-中文浏览器互动恐怖故事。从旅店官网滚动到自助值班台，可以校验房卡、操作门锁、用对讲机回复前台和办理退房。环境声默认关闭。
+虚构旅店官网与滚动恐怖故事。正常浏览房型、价格、评价和入住指南，继续往下滚动就会看到预订信息逐步变化。
 
-解压后用浏览器打开 `index.html` 即可体验。地图由 Canvas 绘制，声音由浏览器合成。页面无需后端，也不会提交订房资料。
+用浏览器打开 `index.html` 即可运行。地图由 Canvas 绘制，客房插图由 CSS 绘制。空房查询在页面内演示，不会提交资料。
 
-## GitHub Pages
-
-将 `index.html`、`style.css`、`story.js` 和 `mark.png` 放在发布分支的根目录。仓库的 **Settings → Pages** 选择 **Deploy from a branch → main → /(root)**。[GitHub Pages 文档](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+GitHub Pages 发布源为 `main` 分支的 `/(root)`。把 `index.html`、`style.css`、`story.js` 和 `mark.png` 放在该目录即可发布。
